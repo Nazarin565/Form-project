@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  background: rgb(101, 20, 7);
+  background: linear-gradient(90deg, rgba(101, 20, 7, 0.9444152661064426) 0%, rgba(203, 93, 93, 0.9948354341736695) 42%, rgba(0, 138, 255, 1) 100%);
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.language {
+  float: right;
+  background-color:rgb(69, 230, 99);
+  padding: 3px;
+}
+
+html {
+  background-image: url(/public/fon.jpg);
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form input {
+  padding: 10px 63px;
+  margin: 5px;
+  
+}
+
+form button {
+  width: 80%;
+  padding: 15px 5%;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left:30px;
+  background: #222;
+  color: #fff;
+  outline: none;
+  font-size: 15px;
+}
+
+form button:hover {
+  transform: scale(1.1)
+}
+
+main {
+  margin: 50px 100px;
+  width: 40%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 7%;
+  float: left;
+}
+
+main .user {
+  margin-bottom: 50px;
+  background-color: #3e8fa0;
+  padding: 20px;
+}
+
+main ul{
+  color: red; 
+  padding: 23px;
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 10px;
+  padding: 20px 10px;
+  background-color: #040c88;
+}
+
+main .edit-icon, main .delete-icon {
+  float: right;
+  cursor: pointer;
+}
+
+main .edit-icon:hover, main .delete-icon:hover {
+  opacity: 0.5;
+}
